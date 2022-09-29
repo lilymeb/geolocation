@@ -21,9 +21,7 @@ triggers {
 
             }
         } 
-          stage('test') {
-            steps {
-                echo 'test'
+          
 
             }
           }
