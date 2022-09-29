@@ -2,7 +2,6 @@
     agent any
     tools {
         maven 'M2_HOME'
-        pollSCM '* * * * *'
     }
     stages {
         stage('Build') {
